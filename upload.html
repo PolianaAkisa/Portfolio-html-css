@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<br><br>
+    <!--<form action="store.php" method="post" enctype="multipart/form-data">
+        Select image to upload:<br><br>
+        <input type="file" name="image"/><br><br>
+	    <input type="submit" name="submit" value="UPLOAD"/>
+    </form>-->
+    
+    <form id="form" method="post" action="store.php" enctype="multipart/form-data" target="iframe">
+        <h3><b>Select image to upload:<br></b></h3>
+     <input type="file" name="image" id="file"/>
+        <input type="submit" name="submit" id="submit" value="UPLOAD IMAGE"/> 
+    </form>
+    
+    <p id="message">Upload message will go here</p>
+    <img style=" min-height: 120; min-width: 200; max-height:120px;" id="image"/><br/> <br/>
+    
+    <iframe name="iframe"> </iframe>
+    
+</body>
+</html>
